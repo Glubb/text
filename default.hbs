@@ -9,12 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
     <link rel="stylesheet" type="text/css" href="{{asset "css/application.css"}}" />
-    <script type="text/javascript" src="{{asset "js/highlight.min.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/highlightjs-line-numbers.min.js"}}" ></script>
     <link rel="stylesheet" href="{{asset "js/github.min.css"}}">
-    <script>
-           hljs.initHighlightingOnLoad();
-    </script>
     {{ghost_head}}
   </head>
   <body>
@@ -34,4 +29,9 @@
     </div>
     {{ghost_foot}}
   </body>
+  <script type="text/javascript" src="{{asset "js/highlight.min.js"}}"></script>
+  <script type="text/javascript" src="{{asset "js/highlightjs-line-numbers.min.js"}}" ></script>
+  <script>
+         hljs.initHighlightingOnLoad();
+  </script>
 </html>
